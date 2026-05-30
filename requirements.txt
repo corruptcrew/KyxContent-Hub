@@ -1,0 +1,64 @@
+# Core Video Generation (from MoneyPrinterTurbo)
+fastapi==0.115.6
+uvicorn==0.32.1
+streamlit==1.45.0
+moviepy==2.1.2
+edge-tts==7.2.7
+faster-whisper==1.1.0
+pillow==10.4.0
+pydantic==2.13.4
+requests==2.33.1
+toml==0.10.2
+loguru==0.7.3
+redis==5.2.0
+python-dotenv==1.2.2
+aiohttp==3.13.5
+httpx==0.27.2
+
+# LLM Providers
+openai==1.56.1
+litellm==1.60.0
+dashscope==1.20.14
+google-generativeai==0.8.6
+
+# B-Roll Sources
+pexels-api==1.0.0
+pixabay-python==2.0.0
+
+# Twitter Automation (from MoneyPrinterV2)
+tweepy==4.14.0
+schedule==1.2.2
+termcolor==2.5.0
+
+# YouTube Automation
+google-api-python-client==2.197.0
+google-auth-httplib2==0.4.0
+google-auth-oauthlib==1.2.0
+
+# Email Outreach
+yagmail==0.16.0
+
+# Browser Automation
+selenium==4.44.0
+webdriver-manager==4.1.1
+undetected-chromedriver==3.5.5
+
+# Speech & Audio
+assemblyai==0.64.4
+soundfile==0.13.1
+pydub==0.25.1
+
+# Utilities
+prettytable==3.17.0
+num2words==0.5.14
+python-dateutil==2.9.0.post0
+pytz==2026.2
+tzdata==2026.2
+
+# Image Processing
+imageio==2.37.3
+imageio-ffmpeg==0.6.0
+
+# Colab Specific
+pyngrok==7.0.2
+nbformat==5.10.0

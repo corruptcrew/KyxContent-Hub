@@ -1,0 +1,80 @@
+# MoneyPrinterMerged Configuration
+# Copy this file to config.toml and fill in your API keys
+
+[app]
+video_source = "pexels"  # "pexels", "pixabay", or "mixkit"
+pexels_api_keys = []  # Free: https://www.pexels.com/api/
+pixabay_api_keys = []  # Free: https://pixabay.com/api/
+
+# LLM Configuration - Mistral AI (pre-configured)
+llm_provider = "openai"  # Mistral uses OpenAI-compatible API
+openai_api_key = ""  # Your Mistral API key
+openai_base_url = "https://api.mistral.ai/v1"
+openai_model_name = "mistral-small-latest"
+
+# Alternative LLMs (uncomment to use)
+# llm_provider = "gemini"
+# gemini_api_key = ""
+# gemini_model_name = "gemini-2.0-flash"
+
+# llm_provider = "ollama"  # Local, free
+# ollama_base_url = "http://localhost:11434"
+# ollama_model_name = "llama3"
+
+# TTS Configuration
+subtitle_provider = "edge"  # "edge" (free, fast) or "whisper" (slower, more accurate)
+voice_name = "en-US-JennyNeural"
+voice_rate = 1.0
+voice_volume = 1.0
+
+# Video Settings
+video_aspect = "portrait"  # "portrait" (9:16) or "landscape" (16:9)
+video_fps = 30
+video_clip_duration = 5  # seconds per clip
+
+# Background Music
+bgm_type = "random"  # "random", "specified", or "none"
+bgm_volume = 0.2  # 0.0 to 1.0
+
+# Server Settings
+listen_host = "0.0.0.0"
+listen_port = 8080
+reload_debug = false
+
+# Twitter Automation
+[twitter]
+enabled = false
+api_key = ""
+api_secret = ""
+access_token = ""
+access_token_secret = ""
+bearer_token = ""
+auto_post = false
+cron_schedule = "0 9 * * *"  # Daily at 9 AM
+
+# YouTube Automation
+[youtube]
+enabled = false
+client_id = ""
+client_secret = ""
+redirect_uri = "http://localhost:8080/oauth/callback"
+auto_upload = false
+
+# Email Outreach
+[email]
+smtp_server = "smtp.gmail.com"
+smtp_port = 587
+username = ""
+password = ""
+
+# Local Business Scraper
+[scraper]
+niche = ""
+google_maps_enabled = false
+outreach_subject = "Partnership Opportunity"
+outreach_body_file = "outreach_template.html"
+
+# Colab Settings
+[colab]
+ngrok_auth_token = ""
+auto_start = true
