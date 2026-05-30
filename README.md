@@ -15,7 +15,7 @@ Combined video generation automation from MoneyPrinterTurbo + MoneyPrinterV2
 
 ## Quick Start - Google Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/MoneyPrinterMerged/blob/main/notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/corruptcrew/KyxContent-Hub/blob/main/notebook.ipynb)
 
 ## API Keys Required
 
@@ -29,7 +29,7 @@ Combined video generation automation from MoneyPrinterTurbo + MoneyPrinterV2
 ## Local Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/MoneyPrinterMerged.git
+git clone https://github.com/corruptcrew/KyxContent-Hub.git
 cd MoneyPrinterMerged
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
@@ -71,3 +71,7 @@ AGPL-3.0
 
 - Original MoneyPrinterTurbo: https://github.com/harry0703/MoneyPrinterTurbo
 - Original MoneyPrinterV2: https://github.com/FujiwaraChoki/MoneyPrinterV2
+
+---
+
+**Author:** Ghost Marshal (@corruptcrew)
